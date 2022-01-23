@@ -7,7 +7,7 @@
 
 ## Features
 
-- Python Url Shortener is for to short long url in short
+- Python Url Shortener is for to short long url 
 - 6 to 7 line of Code Can Make a Link Shortener from Python
 - Small Python Project For Beginners Students
 - Cli Run from terminal
