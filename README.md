@@ -21,15 +21,35 @@
 #Open terminal or cmd Install python library That is - pip insall pyshoteners
 
 
+# import pyshorteners
+
+# link = input("Enter The Link :")
+
+# s = pyshorteners.Shortener()
+
+# CodeAx = s.tinyurl.short(link)
+
+# print(CodeAx)
+
 import pyshorteners
+while (True):
+    a = input("Press q To Quit And 1 to Start The Link Shortener:")
+    if a.lower() == "q":
+        print("Thank You For Using this")
+        break
+    elif a == "1":
+        a = '''    Welcome To Link Shortener
+    Here We Short Long Link
+    Made by CodeAxAvek'''
+        print(a)
+    else:
+        continue
 
-link = input("Enter The Link :")
 
-s = pyshorteners.Shortener()
-
-CodeAx = s.tinyurl.short(link)
-
-print(CodeAx)
+    link = input("Enter The Link :")
+    s = pyshorteners.Shortener()
+    print("Your Link has Generated Succesfully")
+    print(s.tinyurl.short("Copy Your Link--",link))
 
 ```
 
